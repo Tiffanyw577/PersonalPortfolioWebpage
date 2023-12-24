@@ -1,0 +1,64 @@
+<DOCTYPE html>
+  <html lang="en">
+    <head>    
+    <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+      <h1 id="title">Tiffany's Survey Form</h1>
+      <p id="description">Thank you for taking the time to help me improve my coding</p>
+<form id="survey-form">
+<input id="name" type="text" placeholder="Enter Your Name" required />
+  <label id="name-label"> Name
+    </label>
+<input id="email" type="email" placeholder="Enter Your Email" required />
+<label id="email-label">Email
+  </label>
+<input id="number" type="number" min="10" max="99" placeholder="Age" />
+<label id="number-label">Age
+    </label>
+    <div>
+    <label id"current-role">Which option best describes your role?
+      <select id="dropdown">
+        <option value="">(Select one)</option>
+        <option value="1">Sudent</option>
+        <option value="2">Temporary / Seasonal</option>
+        <option value="3">Full-time Job</option>
+        <option value="4">Retired</option>
+        <option value="5">Other</option>
+        </select>
+      </label>
+      </div>
+</select>
+<h3>Do you like the appearance of this Page</h3>
+<label value="yes">
+<input id="yes" name="opinion" type="radio" value="yes" />Yes
+</label>
+</div>
+<div>
+<label value="maybe">
+  <input id="maybe" name="opinion" type="radio" value="maybe" />Maybe
+  </label>
+  </div>
+  <div
+  <label value="not so much">
+    <input id="not so much" name="opinion" type="radio" value="not so much" />Not so much    </label>
+    <h3>Would you add something more? Check all that apply.</h3>
+    </div>
+    <label id="color">
+      <input id="color" name="add more" type="checkbox" value="color" />Color
+      </label>
+      <label id="contrast">
+        <input id="contrast" name="add more" type="checkbox" value="contrast" />Contrast
+        </label
+        <label id="pictures">
+          <input id="pictures" name="add more" type="checkbox" value="pictures" />Pictures
+          </label>
+      <label id="borders">
+        <input id="border" name="add more" type="checkbox" value="borders" />Borders
+        </label>
+        <p>Leave additional suggestions here....
+        <textarea id="suggestions" name="suggestions" row="3" cols="30" placeholder="Better Questions"></textarea>
+        <input id="submit" type="submit" value="submit" />
+        </form>
+</body>
+</html>

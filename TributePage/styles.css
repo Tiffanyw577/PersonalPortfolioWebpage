@@ -1,0 +1,52 @@
+main {
+  background-color: #660066
+}
+h1 {
+  text-align: center;
+  font-family: Avantgarde;
+  color: #FF66FF
+}
+h2{
+  text-align: center;
+  font-family: Georgia;
+  color: #9966ff
+}
+.history {
+  text-align: center;
+  font-family: Georgia;
+  color: #9966ff
+}
+p {
+  text-align: center;
+  color: #00ffFF
+}
+.img-caption {
+  width: 400px;
+  text-align: center;
+  color: #0000FF
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto
+}
+.history {
+  text-align: center;
+  color: #ccffff
+}
+ul {
+  color: #00ccff
+}
+
+h3 {
+  text-align: center;
+  font-family: georgia;
+  color: #ff66ff
+}
+ol {
+  font-family: georgia;
+  color: #0066ff;
+  font-size: 15px
+}
